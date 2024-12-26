@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phishing Simulation Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+            color: #333;
+            padding: 20px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        .stats {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .stats p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Phishing Simulation Dashboard</h1>
+    <div class="stats">
+        <p><strong>Total Clicks:</strong> {{ clicks }}</p>
+        <p><strong>Credentials Submitted:</strong> {{ submissions }}</p>
+    </div>
+    <p>Use this data to educate users about phishing risks!</p>
+</body>
+</html>
